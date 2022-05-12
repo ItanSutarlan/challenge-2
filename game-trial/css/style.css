@@ -20,6 +20,10 @@ body {
 }
 
 /* styling for options */
+.player-choices > .btn:hover {
+    transform: scale(1.5);
+}
+
 .btn {
     margin: 16px;
     width: 18.6vh;
