@@ -52,6 +52,16 @@ body {
     font-size: 90px;
     font-weight: 700;
     text-transform: uppercase;
+    animation-name: twinkle;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes twinkle {
+    50% {
+        transform: scale(1.5);
+        opacity: 0.5;
+    }
 }
 
 .winner {
